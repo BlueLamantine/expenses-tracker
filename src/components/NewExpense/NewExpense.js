@@ -23,7 +23,7 @@ const NewExpense = props => {
       {!isEdit && (
         <button
           onClick={editingHandler}
-          onCances={stopEditingHandler}
+          onCancel={stopEditingHandler}
           className="md:bg-gray-500 md:hover:bg-gray-700 text-gray-100 p-2 rounded"
         >
           Add New Expense
